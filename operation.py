@@ -43,3 +43,6 @@ class Operation:
 
     def get_description(self):
         return self.__description
+
+    def get_datetime(self):
+        return self.__date
